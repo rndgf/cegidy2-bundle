@@ -1,5 +1,11 @@
 {
   "name": "colorz/cegid-y2-bundle",
+  "version": "1.0",
+  "source": {
+    "url": "git@github.com:rndgf/cegidy2-bundle.git",
+    "type": "git",
+    "reference": "main"
+  },
   "type": "symfony-bundle",
   "description": "CEGID Y2 symfony bundle",
   "authors": [
