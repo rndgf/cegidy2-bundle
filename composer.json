@@ -1,6 +1,7 @@
 {
   "name": "colorz/cegid-y2-bundle",
   "type": "symfony-bundle",
+  "license": "MIT",
   "description": "CEGID Y2 Symfony Bundle",
   "version": "1.0",
   "source": {
@@ -15,12 +16,21 @@
     }
   ],
   "require": {
-    "php": ">=8.1",
-    "pgrimaud/cegid-y2-sdk": "^3.0"
+    "php": "^8.1",
+    "pgrimaud/cegid-y2-sdk": "^3.0",
+    "symfony/config": "^6.1.*",
+    "symfony/dependency-injection": "^6.1.*",
+    "symfony/http-foundation": "^6.1.*",
+    "symfony/http-kernel": "^6.1.*"
   },
   "autoload": {
     "psr-4": {
-      "Colorz\\Cegid\\": "src/"
+      "Colorz\\CegidBundle\\": "src/"
+    }
+  },
+  "extra": {
+    "symfony": {
+      "require": "^6.1.0"
     }
   }
 }

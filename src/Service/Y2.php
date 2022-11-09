@@ -5,7 +5,7 @@
  * @copyright Copyright (c) 2022 Colorz (http://www.colorz.fr)
  */
 
-namespace Colorz\Cegid\Service;
+namespace Colorz\CegidBundle\Service;
 
 use Psr\Log\LoggerInterface;
 use SoapFault;

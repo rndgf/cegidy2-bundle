@@ -6,9 +6,9 @@ parameters:
     db_id: '%env(CEGID_DB_ID)%'
 
 services:
-  Colorz\Cegid\Service\Y2:
+  Colorz\CegidBundle\Service\Y2:
     public: true
     tags:
       - 'colorz.cegid.y2'
-    class: Colorz\Cegid\Service\Y2
+    class: Colorz\CegidBundle\Service\Y2
     arguments:
