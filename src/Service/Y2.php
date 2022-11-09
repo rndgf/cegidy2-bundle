@@ -56,7 +56,7 @@ class Y2
 
     public function helloWorld()
     {
-        echo "Hello World 2";
+        echo "Hello World";
     }
 
     /**

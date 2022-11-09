@@ -4,11 +4,10 @@ parameters:
     login: '%env(CEGID_LOGIN)%'
     password: '%env(CEGID_PASSWORD)%'
     db_id: '%env(CEGID_DB_ID)%'
-
 services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
   Colorz\CegidBundle\Service\Y2:
-    public: true
-    tags:
-      - 'colorz.cegid.y2'
     class: Colorz\CegidBundle\Service\Y2
     arguments:
